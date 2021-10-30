@@ -1,0 +1,291 @@
+.tabs-it {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .tabs-it-left {
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: center !important;
+  }
+  
+  .tabs-it-icon {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  
+  .tabs-it-clicked {
+    border-bottom: 4px solid #ffffff;
+    margin-bottom: -2px;
+  }
+  
+  .tabs-it-center {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+  
+  .rounded-circle-white {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+  
+  .rounded-circle-none {
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .image-up-fit {
+    position: relative !important;
+    margin-top: -35px !important;
+    margin-left: 6px !important;
+    margin-bottom: 20px !important;
+    z-index: 10 !important;
+  }
+  
+  .mrn-top {
+    margin-top: -7px !important;
+    color: #ffffff !important;
+    margin-bottom: 5px;
+  }
+  
+  .tabs-not-clicked {
+    margin-top: 7px !important;
+    margin-bottom: 5px;
+  }
+  
+  .input-field-it {
+    border-bottom: none !important;
+  }
+  
+  .bg.dark {
+    background: #ffffff;
+  }
+  
+  .input-cont {
+    width: 300px;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .input-cont input {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .input-cont label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #5e27ca;
+  }
+  
+  .input-cont label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #5e27ca;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .input-cont input:focus + .label-name .content-name,
+  .input-cont input:valid + .label-name .content-name {
+    transform: translateY(-110%);
+    font-size: 14px;
+    color: #5e27ca;
+  }
+  
+  .input-cont input:focus + .label-name::after,
+  .input-cont input:valid + .label-name::after {
+    transform: translateX(100%);
+    color: #5e27ca;
+  }
+  
+  .input-cont.dark input {
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  
+  .input-cont.dark label {
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .input-cont.dark label::after {
+    border-bottom: 3px solid #ffffff;
+  }
+  
+  .input-cont.dark input:focus + .label-name .content-name,
+  .input-cont.dark input:valid + .label-name .content-name {
+    transform: translateY(-120%);
+    font-size: 14px;
+    color: #5e27ca;
+  }
+  
+  .inpot-form {
+    width: 500px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 33em;
+    margin-top: 1em;
+    height: 80px;
+  }
+  
+  .insure-you {
+    background-color: #44cb86 !important;
+    border: none !important;
+    float: right !important;
+    margin-top: -462px !important;
+    margin-left: -30px !important;
+    padding: 10px !important;
+  
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.875rem;
+    color: rgb(255, 255, 255);
+    min-width: 143px;
+    height: 44px;
+    background: rgb(68, 203, 134);
+    border-radius: 7px;
+    border: 0px;
+    padding: 0px;
+  }
+  
+  .insure-you:hover {
+    background-color: #4dbc7e !important;
+  }
+  
+  .lh {
+    width: 113px;
+    margin-left: 108px;
+    margin-right: 5px;
+    border: 2px solid #ffffff;
+    margin-top: 12px !important;
+  }
+  
+  .rh-hr {
+    margin-left: 5px;
+    width: 113px !important;
+    border: 2px solid #ffffff;
+    margin-top: 12px !important;
+  }
+  
+  .ads-1 {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+  }
+  
+  .get-quote-btn {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-left: 80px;
+  }
+  
+  .mobview-ban-head {
+    font-size: 12px;
+    color: #4d4659;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .mobview-ban-subhead {
+    font-size: 12px;
+    color: #44cb86;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
+  .webview-ban-head {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  
+  .webview-ban-subhead {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
+  .webview-ban-card {
+    margin: 10px;
+  }
+  
+  .display-ads-webview {
+    width: 500px;
+    margin-top: 15px;
+  }
+  
+  .display-ads-mobview {
+    width: 100vw;
+    margin-top: 200px !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 !important;
+  }
+  
+  .web-heart-Banner-View-header {
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+  }
+  .web-heart-Banner-View-subheader {
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+  }
+ 
+  .web-padding-banner {
+    padding: 10px;
+  }
+  .ads-down-credentials {
+    font-size: 12px;
+    line-height: 17.28px;
+    color: #ffffff;
+    font-family: "system-ui", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+  }
+  
+  
+  
+  
