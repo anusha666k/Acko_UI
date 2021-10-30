@@ -1256,12 +1256,7 @@
   flex-direction: column;
   padding: 55px 0px 40px;
 }
-.lguFxl {
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-}
+
 .aPcUH {
   box-sizing: border-box;
   display: flex;
@@ -1284,13 +1279,7 @@
   line-height: 18px !important;
   color: rgb(65, 74, 83) !important;
 }
-.eDdiHK {
-  font-weight: 500;
-  line-height: 22px;
-  margin: 15px 0px 20px;
-  font-size: 14px !important;
-  color: rgb(65, 74, 83) !important;
-}
+
 .bDffuV {
   width: 100%;
   /* display: flex; */
@@ -1379,24 +1368,8 @@
   color: rgb(138, 153, 169);
   margin: 0px 0px 24px;
 }
-.jddMCa {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.oJhje {
-  font-weight: 600;
-  color: rgb(65, 74, 83);
-  font-size: 14px;
-  line-height: 17px;
-  margin: 0px 0px 20px;
-}
-.jaJSLd {
-  list-style-type: none;
-  margin: 0px 0px 28px;
-  padding: 0px;
-}
+
+
 .cEbJzd {
   color: rgb(21, 22, 25);
   font-size: 12px;
@@ -1411,19 +1384,8 @@
   /* border-left: 1px solid rgb(230, 234, 240); */
   padding: 0px 0px 0px 55px;
 }
-.jddMCa {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.oJhje {
-  font-weight: 600;
-  color: rgb(65, 74, 83);
-  font-size: 14px;
-  line-height: 17px;
-  margin: 0px 0px 20px;
-}
+
+
 .jaJSLd {
   list-style-type: none;
   margin: 0px 0px 28px;
@@ -1875,15 +1837,7 @@
   border-bottom: 2px solid white;
 }
 
-.eIrHNz {
-  width: 100%;
-  display: flex;
-  min-height: 58px;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-}
+
 
 .kKEnLi {
   display: flex;
