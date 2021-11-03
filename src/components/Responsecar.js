@@ -284,7 +284,10 @@ function Responsecar() {
                     </label>
                   </div>
                 </div>
-                <CButton className="insure-you" color="success">
+                <CButton className="insure-you" color="success" style={{
+                  marginLeft: "480px",
+                  marginTop: "-60px"
+              }}>
                   &#8594;
                 </CButton>
               </div>
